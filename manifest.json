@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Takana",
+  "description": "Chrome extension for Takana. Let's you live edit SCSS from Sublime Text and see changes in Chrome as you type. You need the companion app to use this extension, available here: http://usetakana.com",
+  "version": "0.1",
+
+  "permissions": [
+    "<all_urls>",
+    "webNavigation",
+    "storage"
+  ],
+
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",    
+    "128": "images/icon-128.png",
+    "disabled": "/images/page-action-icon--disabled.png",
+    "active": "/images/page-action-icon.png"
+  },
+
+  "page_action": {
+    "default_icon": "images/page-action-icon.png",
+    "default_title": "Takana"
+  },
+
+  "background": {
+    "scripts": ["build/eventPage.js"],
+    "persistent": true
+  }
+}

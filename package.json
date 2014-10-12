@@ -1,0 +1,23 @@
+{
+  "name": "takana-chrome",
+  "version": "0.0.1",
+  "description": "Takana Chrome extension",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mechio/takana-chrome.git"
+  },
+  "author": "Mechio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mechio/takana-chrome/issues"
+  },
+  "homepage": "https://github.com/mechio/takana-chrome",
+  "devDependencies": {
+    "raw-loader": "~0.5.1",
+    "webpack": "~1.4.8"
+  }
+}
